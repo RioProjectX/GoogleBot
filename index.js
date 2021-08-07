@@ -1,7 +1,7 @@
 const { Telegraf } = require("telegraf");
 const axios = require('axios')
 
-const n = new Telegraf('1933921586:AAEL0ow9Vpjho3O-t6XHCV35oEJlqRCm10s')
+const n = new Telegraf(process.env.TOKEN)
 
 n.command('start', (ctx) => {
   ctx.reply('Hai '+ctx.from.first_name+' Silahkan Ketik Kata Yang Mau Kamu Cari')
