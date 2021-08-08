@@ -10,8 +10,12 @@ n.on('message', (ctx) => { `  `
     let input = ctx.message.text;
     axios.get('https://google-api.xlaaf.repl.co/search?q='+input)
     .then(res => {
-         console.log(res);
-         ctx.reply(`Ditemukan : ${input}\n${res.data.title}\nUrl: ${res.data.link}\nDeskripsi: ${res.data.desk}`)
+         const me = res.data.data
+         const hai = me[Math.floor(Math.random() * (me.length))] 
+         const judul = hai.title
+         const link = hai.link
+         const desk = hai.desk
+         ctx.reply(`Ditemukan : ${input}\n${judul}\nUrl: ${link}\nDeskripsi: ${desk}`)
        })
     }).catch(e => {
          console.log(e);
