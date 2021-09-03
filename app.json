@@ -1,11 +1,11 @@
 {
-"name": "google-bot",
+"name": "Googlebot",
   "description": "Bot pencarian digoogle",
   "keywords": [
     "telegram",
     "bot"
   ],
-  "repository": "https://github.com/nekozu/google-bot",
+  "repository": "https://github.com/nekozu/GoogleBot",
   "env": {
     "token": {
       "description": "Bot token kamu",
