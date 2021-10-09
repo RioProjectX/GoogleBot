@@ -16,5 +16,5 @@ Bot ini Bisa Searching Dengan Mudah Dan Cepat
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2FRioProjectX%2FGoogleBot&envs=token&tokenDesc=bot+token+mu)
 
 # Credit
-* [Dev](github.com/rioprojectx)
-* Nezuko 
+* [Dev](https://github.com/rioprojectx)
+* Nezuko (https://t.me/nezukosupport)
